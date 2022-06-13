@@ -281,7 +281,7 @@ elif [[ $opcion = 6 ]]; then
 elif [[ $opcion = 7 ]]; then
 	echo -e $rojo"seleccionado 7"
 	sleep 2
-	termux-open --view https://chat.whatsapp.com/BDbvYX1HRp9INkSl2nuQRK
+	termux-open --view https://chat.whatsapp.com/By9vFRre2m6LqDqLY3Q9qt
  elif [[ $opcion = 8 ]]; then
 	clear
 	echo -e $rojo"Cerrando script"
