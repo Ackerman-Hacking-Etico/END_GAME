@@ -35,7 +35,7 @@ echo -e "[5]$verde❱❱$rojo Spoofing"
 echo ""
 echo -e "[6]$verde❱❱$gris Wireless"
 echo ""
-echo -e "[7]$verde❱❱$amarillo grupo de Whatsapp"
+echo -e "[7]$verde❱❱$amarillo grupo de Telegram"
 echo ""
 echo -e "[8]$verde❱❱$blanco salir"
 echo ""
@@ -281,7 +281,7 @@ elif [[ $opcion = 6 ]]; then
 elif [[ $opcion = 7 ]]; then
 	echo -e $rojo"seleccionado 7"
 	sleep 2
-	termux-open --view https://chat.whatsapp.com/By9vFRre2m6LqDqLY3Q9qt
+	termux-open --view https://t.me/+XFQcFnAOpohmZWQx
  elif [[ $opcion = 8 ]]; then
 	clear
 	echo -e $rojo"Cerrando script"
